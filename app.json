@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "ניהול נגישות רכבת",
+    "slug": "rail-accessibility-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#002b4d"
+    },
+    "android": {
+      "package": "com.railisrael.accessibility",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#002b4d"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.railisrael.accessibility",
+      "supportsTablet": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
